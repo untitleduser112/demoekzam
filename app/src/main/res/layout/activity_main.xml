@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/colorPickers"
+        android:layout_width="729dp"
+        android:layout_height="474dp"
+        android:layout_marginBottom="184dp"
+        android:src="@drawable/demooo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/displayColors"
+        android:layout_width="502dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="44dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="Current color"
+
+        android:textColor="#F8F8F8"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/colorPickers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
